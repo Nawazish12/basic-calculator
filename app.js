@@ -11,5 +11,6 @@ function clearInput(){
 
 function getResult(){
     var result=document.getElementById("value")
+    console.log(result.value)
     result.value=eval( result.value)
 }
