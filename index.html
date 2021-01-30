@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CALCULTOR APP -->
+<div class="main">
+        <h1>CALCULATOR</h1>
+        <div>
+            <input type="text" class="abc" id="value" onblur="this.style.backgroundColor=' blanchedalmond'">
+        </div>
+        <div >
+            <button class="btn" onclick="getNumber('9')" onmouseover="this.style.backgroundColor='blanchedalmond'" >9</button>
+            <button class="btn"  onclick="getNumber('8')" onmouseover="this.style.backgroundColor='blanchedalmond'" >8</button>
+            <button class="btn"  onclick="getNumber('7')" onmouseover="this.style.backgroundColor='blanchedalmond'">7</button>
+            <button class="btn"  onclick="getNumber('*')" onmouseover="this.style.backgroundColor='blanchedalmond'" >x</button>
+        </div>
+        <div>
+            <button class="btn"  onclick="getNumber('6')" onmouseover="this.style.backgroundColor='blanchedalmond'">6</button>
+            <button class="btn" onclick="getNumber('5')" onmouseover="this.style.backgroundColor='blanchedalmond'" >5</button>
+            <button class="btn" onclick="getNumber('4')" onmouseover="this.style.backgroundColor='blanchedalmond'" >4</button>
+            <button class="btn" onclick="getNumber('/')" onmouseover="this.style.backgroundColor='blanchedalmond'" >/</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('3')" onmouseover="this.style.backgroundColor='blanchedalmond'">3</button>
+            <button class="btn" onclick="getNumber('2')" onmouseover="this.style.backgroundColor='blanchedalmond'" >2</button>
+            <button class="btn" onclick="getNumber('1')" onmouseover="this.style.backgroundColor='blanchedalmond'" >1</button>
+            <button class="btn" onclick="getNumber('+')" onmouseover="this.style.backgroundColor='blanchedalmond'">+</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNumber('0')" onmouseover="this.style.backgroundColor='blanchedalmond'" >0</button>
+            <button class="btn" onclick="getNumber('%')" onmouseover="this.style.backgroundColor='blanchedalmond'" >%</button>
+            <button class="btn" onclick="getNumber('.')" onmouseover="this.style.backgroundColor='blanchedalmond'" >.</button>
+            <button class="btn" onclick="getNumber('-')" onmouseover="this.style.backgroundColor='blanchedalmond'" >-</button>
+        </div>
+        <div>
+            <button class="btn1" onclick="clearInput()" onmouseover="this.style.backgroundColor='blanchedalmond'" >C</button>
+            <button class="btn1" onclick="getResult()" onmouseover="this.style.backgroundColor='blanchedalmond'">=</button>
+        </div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>

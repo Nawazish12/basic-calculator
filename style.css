@@ -1,0 +1,57 @@
+/* CALCULATOR  */
+body{
+    text-align: center;
+}
+.main{
+   border: 2px solid gainsboro;
+  max-width: 400px;
+}
+.abc{
+    width: 370px;
+    height: 25px;
+    background-color: gainsboro;
+    font-size: large;
+    color:black;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:400px){
+    .abc{
+        width: 280px;
+    }
+}
+
+h1{
+    background-color: blanchedalmond;
+    color: black
+}
+.btn{
+    width: 75px;
+    margin: 11px;
+    border-radius: 50px;
+    margin-top: 12px;
+    height: 25px;
+    
+}
+@media only screen and (max-width:420px){
+    .btn{
+        width: 60px;
+        margin: 6px;
+        margin-top: 15px;
+    }
+}
+
+
+.btn1{
+    width: 44%;
+    margin: 8px;
+    border-radius: 50px;
+}
+@media only screen and (max-width:450px){
+    .btn1{
+        width: 40%;
+        margin: 7px;
+        
+    }
+}
